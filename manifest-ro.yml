@@ -1,0 +1,9 @@
+---
+applications:
+- name: top
+  command: gotty --title-format "top" ~/tmux new-session -A -s top /home/vcap/app/cf top
+  memory: 128m
+  env:
+    GOPACKAGENAME: main
+    TERM: "xterm-256color"
+    LD_LIBRARY_PATH: "/home/vcap/app/usr/lib"

@@ -1,7 +1,7 @@
 ---
 applications:
-- name: gotty
-  command: gotty -w bash
+- name: top-interactive
+  command: gotty --title-format "top - interactive" -w ~/cf top
   memory: 128m
   env:
     GOPACKAGENAME: main

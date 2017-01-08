@@ -48,11 +48,11 @@
 // title_format = "GoTTY - {{ .Command }} ({{ .Hostname }})"
 
 // [bool] Enable client side reconnection when connection closed
-// enable_reconnect = false
+enable_reconnect = true
 
 // [int] Interval time to try reconnection (seconds)
 //       To enable reconnection, set `true` to `enable_reconnect`
-// reconnect_time = false
+reconnect_time = 60
 
 // [int] Maximum connection to gotty, 0(default) means no limit.
 // max_connection = 0
