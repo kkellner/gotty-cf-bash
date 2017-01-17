@@ -1,7 +1,7 @@
 ---
 applications:
-- name: top-interactive
-  command: gotty --title-format "top - interactive" -w ~/cf top -no-top-check
+- name: top-interactive079
+  command: gotty --title-format "top - interactive" -w ~/cfstart.sh
   memory: 128m
   env:
     GOPACKAGENAME: main
